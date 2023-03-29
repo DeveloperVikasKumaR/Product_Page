@@ -1,0 +1,35 @@
+.main-sec-two-box-effect{
+    overflow: none;
+}
+.main-sec-two-box-one{
+    width: 432px;
+    height: 522px;
+    background-image: url(image/pro-img-1.webp);
+    background-size: cover;
+    position: relative;    
+}
+.main-sec-two-box-one:hover{
+    transition: all;
+    scale: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html
+
+<div class="main-sec-two-box-effect">
+                        
+
+
+                        <!-- <div class="main-sec-two-box-one">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
