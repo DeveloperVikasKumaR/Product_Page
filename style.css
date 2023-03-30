@@ -63,11 +63,6 @@ nav{
     padding: 0 54px 0 64px;
     height: 49px;
     background-color: white;
-    /* position: fixed;
-    width: 92.25vw;
-    z-index: 3;
-    margin-top: 49px;
-    transition: ; */
 }
 .product-nav-bar-left{
     display: flex;
@@ -107,6 +102,9 @@ nav{
     background-color: #dc0411;
 }
 /* main */
+main{
+    background-color: #000000;
+}
 #customer-care-icon{
     width: 48px;
     border-radius: 24px;
@@ -114,6 +112,7 @@ nav{
     top: 75vh;
     left: 2vw;
     z-index: 1;
+
 }
 /* main section one */
 .main-section-one{
@@ -173,7 +172,10 @@ nav{
     font-family: sans-serif;
     row-gap: 10px;
     column-gap: 10px;
-    background-color: #000000;
+    margin-top: 50px;
+}
+.main-sec-two-overflow-image{
+    overflow: hidden;
 }
 .main-sec-two-box-one-2{
     display: flex;
@@ -193,117 +195,102 @@ nav{
 .main-sec-two-box-one{
     width: 432px;
     height: 522px;
-    background-image: url(image/pro-img-1.webp);
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-one p{
     width: 392px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position: absolute;
-    top: 522px;
 }
-.main-sec-two-box-one:hover{
+.main-sec-two-box-one img:hover{
     transform: scale(1.1);
     transition-duration: .3s;
 }
 .main-sec-two-box-two{
     width: 872px;
     height: 234px;
-    background-image: url(image/pro-img-2.webp);
-    background-size: cover;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-two p{
-    position: absolute;
     top: 234px;
     width: 832px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position: absolute;
-    top: 234px;
 }
-.main-sec-two-box-two:hover{
+.main-sec-two-box-two img:hover{
     transform: scale(1.1);
     transition-duration: .3s;    
 }
 .main-sec-two-box-three{
     width: 432px;
     height: 234px;
-    background-image: url(image/pro-img-3.webp);
-    background-size: cover;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-three p{
     width: 392px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position:absolute;
-    top: 234px;
 }
-.main-sec-two-box-three:hover{
+.main-sec-two-box-three img:hover{
     transform: scale(1.1);
-    transition-duration: .3s;    
+    transition-duration: .3s; 
 }
 .main-sec-two-box-four{
     width: 432px;
     height: 234px;
-    background-image: url(image/pro-img-4.webp);
     background-color: #171717;
-    /* padding: 10px 40px; */
-    background-size: cover;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-four p{
     width: 392px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position: absolute;
     top: 234px;
 }
-.main-sec-two-box-four:hover{
+.main-sec-two-box-four img:hover{
     transform: scale(1.1);
     transition-duration: .3s;
 }
 .main-sec-two-box-five{
     width: 652px;
     height: 234px;
-    background-image: url(image/pro-img-5.webp);
-    background-size: cover;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-five p{
     width: 612px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 234px;
 }
-.main-sec-two-box-five:hover{
+.main-sec-two-box-five img:hover{
     transform: scale(1.1);
     transition-duration: .3s;
 }
 .main-sec-two-box-six{
     width: 652px;
     height: 234px;
-    background-image: url(image/pro-img-6.webp);
-    background-size: cover;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
 }
 .main-sec-two-box-six p{
     width: 612px;
     padding: 12px 20px;
     color: white;
     background-color: #333333;
-    position: absolute;
-    top: 234px;
 }
-.main-sec-two-box-six:hover{
+.main-sec-two-box-six img:hover{
     transform: scale(1.1);
     transition-duration: .3s;
 }
