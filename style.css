@@ -194,7 +194,7 @@ main{
 }
 .main-sec-two-box-one{
     width: 432px;
-    height: 522px;
+    height: 570px;
     display: flex;
     flex-direction: column;
 }
@@ -203,6 +203,7 @@ main{
     padding: 12px 20px;
     color: white;
     background-color: #333333;
+    z-index: 0;
 }
 .main-sec-two-box-one img:hover{
     transform: scale(1.1);
@@ -210,7 +211,7 @@ main{
 }
 .main-sec-two-box-two{
     width: 872px;
-    height: 234px;
+    height: 280px;
     display: flex;
     flex-direction: column;
 }
@@ -220,6 +221,7 @@ main{
     padding: 12px 20px;
     color: white;
     background-color: #333333;
+    z-index: 0;
 }
 .main-sec-two-box-two img:hover{
     transform: scale(1.1);
@@ -227,7 +229,7 @@ main{
 }
 .main-sec-two-box-three{
     width: 432px;
-    height: 234px;
+    height: 280px;
     display: flex;
     flex-direction: column;
 }
@@ -236,6 +238,7 @@ main{
     padding: 12px 20px;
     color: white;
     background-color: #333333;
+    z-index: 0;
 }
 .main-sec-two-box-three img:hover{
     transform: scale(1.1);
@@ -243,7 +246,7 @@ main{
 }
 .main-sec-two-box-four{
     width: 432px;
-    height: 234px;
+    height: 280px;
     background-color: #171717;
     display: flex;
     flex-direction: column;
@@ -254,6 +257,7 @@ main{
     color: white;
     background-color: #333333;
     top: 234px;
+    z-index: 0;
 }
 .main-sec-two-box-four img:hover{
     transform: scale(1.1);
@@ -261,7 +265,7 @@ main{
 }
 .main-sec-two-box-five{
     width: 652px;
-    height: 234px;
+    height: 280px;
     display: flex;
     flex-direction: column;
 }
@@ -273,6 +277,7 @@ main{
     display: flex;
     flex-direction: column;
     top: 234px;
+    z-index: 0;
 }
 .main-sec-two-box-five img:hover{
     transform: scale(1.1);
@@ -280,7 +285,7 @@ main{
 }
 .main-sec-two-box-six{
     width: 652px;
-    height: 234px;
+    height: 280px;
     display: flex;
     flex-direction: column;
 }
@@ -289,6 +294,7 @@ main{
     padding: 12px 20px;
     color: white;
     background-color: #333333;
+    z-index: 0;
 }
 .main-sec-two-box-six img:hover{
     transform: scale(1.1);
