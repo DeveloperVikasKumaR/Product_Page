@@ -174,9 +174,11 @@ main{
     column-gap: 10px;
     margin-top: 50px;
 }
+/* managing overflow of image */
 .main-sec-two-overflow-image{
     overflow: hidden;
 }
+/* positioning image block */
 .main-sec-two-box-one-2{
     display: flex;
     flex-direction: column;
@@ -192,6 +194,7 @@ main{
     flex-direction: row;
     column-gap: 10px;
 }
+/* image block one */
 .main-sec-two-box-one{
     width: 432px;
     height: 570px;
@@ -209,6 +212,7 @@ main{
     transform: scale(1.1);
     transition-duration: .3s;
 }
+/* image block two */
 .main-sec-two-box-two{
     width: 872px;
     height: 280px;
@@ -227,6 +231,7 @@ main{
     transform: scale(1.1);
     transition-duration: .3s;    
 }
+/* image block three */
 .main-sec-two-box-three{
     width: 432px;
     height: 280px;
@@ -244,6 +249,7 @@ main{
     transform: scale(1.1);
     transition-duration: .3s; 
 }
+/* image block four */
 .main-sec-two-box-four{
     width: 432px;
     height: 280px;
@@ -263,6 +269,7 @@ main{
     transform: scale(1.1);
     transition-duration: .3s;
 }
+/* image block five */
 .main-sec-two-box-five{
     width: 652px;
     height: 280px;
@@ -283,6 +290,7 @@ main{
     transform: scale(1.1);
     transition-duration: .3s;
 }
+/* image block six */
 .main-sec-two-box-six{
     width: 652px;
     height: 280px;
@@ -299,5 +307,10 @@ main{
 .main-sec-two-box-six img:hover{
     transform: scale(1.1);
     transition-duration: .3s;
+}
+/* main section three */
+.main-section-three{
+    display: flex;
+    justify-content: center;
 }
 
